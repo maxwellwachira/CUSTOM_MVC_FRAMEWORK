@@ -18,8 +18,8 @@ class CoopconnectController{
     public csrf $csrf;
 
     public function __construct(){
-        $this->CK = 'm5s7WVpifcsEE__ZHloZF8oIGcga';
-        $this->SK = '9dgvSGsDXBuxgu7idTzjPYsuMR8a';
+        $this->CK = '';
+        $this->SK = '';
         $this->content = "grant_type=client_credentials";
         $this->csrf = new csrf();
     }
