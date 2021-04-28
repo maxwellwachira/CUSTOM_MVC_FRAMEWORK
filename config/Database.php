@@ -5,10 +5,10 @@ namespace app\config;
 class Database{
   
     // specify your own database credentials
-    private $host = "localhost";
-    private $db_name = "mvc";
-    private $username = "root";
-    private $password = "Db@maxwell";
+    private $host = "";
+    private $db_name = "";
+    private $username = "";
+    private $password = "";
     public $conn;
   
     // get the database connection
