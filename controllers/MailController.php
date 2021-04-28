@@ -11,7 +11,7 @@ class MailController
 	
 	public function send_email($mj_from_email, $mj_from_name, $mj_to_email, $mj_to_name, $mj_subject, $mj_text, $mj_html){
 
-		$mj = new \Mailjet\Client('8286ebdb5c39d228fc5f4235c8e086b8', 'bcfdeaa25473a150c6d285fdb5942f24',true,['version' => 'v3.1']);
+		$mj = new \Mailjet\Client('', '',true,['version' => 'v3.1']);
 
 		$body = [
             'Messages' => [
