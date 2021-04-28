@@ -11,8 +11,8 @@ class MessageController
 	public  AfricasTalkingGateway $gateway;
 	public function __construct(){
 
-		$this->username = 'tujiajiri';
-		$this->apikey = '5e2c71a8643de0f653a16c3c2f855903f213f003a5ad098f45a1d0e9ae462eb1';
+		$this->username = '';
+		$this->apikey = '';
 		$this->gateway = new AfricasTalkingGateway($this->username, $this->apikey);
 	}
 
