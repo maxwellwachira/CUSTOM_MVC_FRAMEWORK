@@ -1,0 +1,16 @@
+{
+    "name": "php/mvc_framework_test",
+    "authors": [
+    	{
+    		"name": "Wachira Mwangi",
+    		"email": "maxwellwachira67@gmail.com"
+    	}],
+    "autoload":{
+    	"psr-4": {
+    		"app\\": "./"
+    	}
+    },
+    "require": {
+        "mailjet/mailjet-apiv3-php": "^1.5"
+    }
+}
